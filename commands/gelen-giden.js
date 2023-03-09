@@ -1,3 +1,6 @@
+const crew = require('../crew.json')
+const db = require('croxydb')
+
 module.exports = {
     kod: 'gelen-giden',
     run (client, message, args) {
