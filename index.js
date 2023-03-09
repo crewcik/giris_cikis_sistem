@@ -1,3 +1,5 @@
+const db = require('croxydb')
+
 client.on('guildMemberAdd', (crew) => {
     let kanal = db.fetch(`gelen_giden_${crew.guild.id}`)
     if (!kanal) return;
